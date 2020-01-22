@@ -2,7 +2,7 @@
 
 - add * to match all cases
 - RGBA resolved to RGB(r,g,b, 255) so we could use RGBA function?
-- Marker as type for color instead of Suit, it indicates beam and shape and has conotations with color
+- Marker or MarkerColor as type for color instead of Suit, it indicates beam and shape and has conotations with color
 - predefined BaseTypes with left-side inclusivness
 
 Like this below. How to add req lvl ?
