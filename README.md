@@ -1,3 +1,44 @@
+## Questions and propositions
+
+- add * to match all cases
+- RGBA resolved to RGB(r,g,b, 255) so we could use RGBA function?
+- Marker as type for color instead of Suit, it indicates beam and shape and has conotations with color
+- predefined BaseTypes with left-side inclusivness
+
+Like this below. How to add req lvl ?
+_Two_Handed_Swords:=
+_Two_Handed_Weapons:= _Two_Handed_Axes + _Two_Handed_Maces + _Two_Handed_Swords
+
+
+ChooseBase([ "itembasename1","itembasename2"... ], reqLvl)
+
+lul its already done by
+Class "Two Handed Axe" etc
+
+
+why same blocks (100,_)
+```
+Rarity Unique {
+	SetTextColor Brown
+
+	# surely good drops
+	BaseType $uniques_eq_unambiguous(100, _) {
+		SetAlertSound 1
+		Show
+	}
+
+	# potentially good drop
+	BaseType $uniques_eq_ambiguous(100, _) {
+		SetAlertSound sound_need_check
+		Show
+	}
+
+	SetAlertSound sound_unique
+	Show
+}
+```
+
+
 # Filter Spirit
 
 Advanced item filter generator for Path of Exile that uses it's own [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) and online item price APIs. Basically a separate pseudo-programming language that lets you write item filters using item price data from poe.ninja or poe.watch available at generation time. Create multiple filter variants and refresh whenever you want to always be up to date with market prices.
