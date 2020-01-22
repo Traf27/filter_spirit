@@ -6,8 +6,9 @@ In order to write filters using FS well, you first need to understand what an ac
 
 If you have never been editing an actual filter, here are the related articles from wiki (not maintained by me):
 
-- pathofexile.gamepedia.com/Item_filter
-- pathofexile.gamepedia.com/Item_filter_guide
+- [pathofexile.gamepedia.com/Item_filter](https://pathofexile.gamepedia.com/Item_filter
+)
+- [pathofexile.gamepedia.com/Item_filter_guide](https://pathofexile.gamepedia.com/Item_filter_guide)
 
 You don't have to understand and remember every detail - just the rough idea how it works.
 
